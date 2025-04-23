@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -20,6 +22,7 @@
     "bootstrap": "^5.3.5",
     "firebase": "^11.6.0",
     "framer-motion": "^12.6.3",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
@@ -38,5 +41,6 @@
     "globals": "^15.15.0",
     "parcel": "^2.14.4",
     "vite": "^6.2.0"
-  }
+  },
+  "homepage": "https://harshbarai2516.github.io/blocklight.in/"
 }
