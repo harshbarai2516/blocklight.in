@@ -8,8 +8,8 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDRbi57FvbqePXAJ6ejUqdScNRjQZRtS_E",
-  authDomain: "blocklight-9401c.firebaseapp.com",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
   projectId: "blocklight-9401c",
   storageBucket: "blocklight-9401c.firebasestorage.app",
   messagingSenderId: "467966017402",
